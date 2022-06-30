@@ -74,7 +74,7 @@ header {
 
 .about{
     padding: 20px 310px 0 310px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 
@@ -116,8 +116,8 @@ header {
 footer {
     background-color: var(--fourth-color);
     padding-top: 40px;
-    padding-bottom: 40px;
-    word-spacing: 15px;
+    padding-bottom: 5px;
+    word-spacing: 23px;
 
 }
 
@@ -126,3 +126,13 @@ footer {
     color: var(--first-color);
 }
 
+.kontakt a:hover {
+    font-size: 18px;
+    color: var(--third-color);
+    transition: 200ms;
+}
+
+.kontakt p {
+    color: var(--first-color);
+    opacity: 30%;
+}
